@@ -1,0 +1,61 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="#">Sistema Web</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Cadastrar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Consultar</a>
+                            </li>
+
+                            </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col">
+                <br>
+                <h5>Cadastrar - Agendamento de Potenciais Clientes</h5>
+            </div>
+            <form>
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome:</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                </div>
+                <div class="mb-3">
+                    <label for="telefone" class="form-label">Telefone:</label>
+                    <input type="tel" class="form-control" id="telefone" placeholder="Digite seu nome">
+                </div>
+                <div class="mb-3">
+                    <label for="origem" class="form-label">Origem:</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Selecione a opção desejada</option>
+                        <option value="1">Residêncial</option>
+                        <option value="2">Celular</option>
+                        <option value="3">Comercial</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="data" class="form-label">Data do contato:</label>
+                    <input type="date" class="form-control" id="data" placeholder="data do contato">
+                </div>
+                <div class="mb-3">
+                    <label for="observacao" class="form-label">Observações:</label>
+                    <textarea class="form-control" id="observacao" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+</div>
